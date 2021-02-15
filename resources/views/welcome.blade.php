@@ -2,8 +2,8 @@
 
 @section('content')
 
-<nav>
-    <div class="nav-wrapper">
+<nav class="indigo darken-1">
+    <div class="container nav-wrapper">
         <a href="#!" class="brand-logo">Logo</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
@@ -22,6 +22,8 @@
     <li><a href="">Sass</a></li>
     
 </ul>
+
+
 
 @endsection
 
