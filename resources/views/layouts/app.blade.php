@@ -8,11 +8,35 @@
     <!-- Link CDN -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
     @yield('styles')
 
 </head>
 <body>
+
+    <nav class="indigo darken-1">
+        <div class="nav-wrapper container">
+            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="">Sass</a></li>
+                <li><a href="">Components</a></li>
+                <li><a href="">Javascript</a></li>
+                <li><a href="">Mobile</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="">Sass</a></li>
+        <li><a href="">Sass</a></li>
+        <li><a href="">Sass</a></li>
+        <li><a href="">Sass</a></li>
+        
+    </ul>
     
     @yield('content')
 

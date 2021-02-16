@@ -2,37 +2,16 @@
 
 @section('styles')
 
-<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
 @endsection
 
 @section('content')
 
-<nav class="indigo darken-1">
-    <div class="container nav-wrapper">
-        <a href="#!" class="brand-logo">Logo</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-            <li><a href="">Sass</a></li>
-            <li><a href="">Components</a></li>
-            <li><a href="">Javascript</a></li>
-            <li><a href="">Mobile</a></li>
-        </ul>
-    </div>
-</nav>
-
-<ul class="sidenav" id="mobile-demo">
-    <li><a href="">Sass</a></li>
-    <li><a href="">Sass</a></li>
-    <li><a href="">Sass</a></li>
-    <li><a href="">Sass</a></li>
-    
-</ul>
-
-<section class="container">
+<section>
     <div class="row">
         <div class="col s12 m6">
-            <div class="card">
+            <div class="card z-depth-0">
                 <div class="card-image">
                     <img 
                         src="{{ asset('assets/paradise.jpeg') }}" 
@@ -48,7 +27,7 @@
             </div>    
         </div>
         <div class="col s12 m6">
-            <div class="card">
+            <div class="card z-depth-0">
                 <div class="card-image waves-effect waves-block waves-light">
                     <img 
                         class="activator" 
